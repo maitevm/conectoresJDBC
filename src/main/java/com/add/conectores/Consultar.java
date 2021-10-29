@@ -18,6 +18,7 @@ public class Consultar {
 			ResultSet rs =st.executeQuery("select * from tablaex");
 			//System.out.println("Prueba commmit");
 			//otro comentario
+			//otro commentario
 			
 			while(rs.next()) {
 				
