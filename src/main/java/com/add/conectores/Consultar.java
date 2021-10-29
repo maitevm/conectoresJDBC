@@ -16,6 +16,7 @@ public class Consultar {
 			Statement st =con.createStatement();
 			
 			ResultSet rs =st.executeQuery("select * from tablaex");
+			//System.out.println("Prueba commmit");
 			
 			while(rs.next()) {
 				
